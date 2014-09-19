@@ -1,0 +1,68 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  font-size: 18px;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: url("img/backgroundStars.jpg");
+  background-size:cover;
+}
+
+.bullet {
+  width: 5px;
+  height: 20px;
+  border-radius: 100%;
+  top: calc(100% - 120px);
+  background-color: red;
+  position: absolute;
+}
+
+.gunner {
+  width:100px;
+  position: absolute;
+}
+.gunner img{
+  width:75px;
+}
+.tieFighter {
+  position: absolute;
+}
+.tieFighter img {
+  width:100px;
+  position: absolute;
+}
+.starDestroyer {
+  position: absolute;
+}
+.starDestroyer img {
+  width:300px;
+  position: absolute;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+
+.lineup {
+  padding:5px 12px;
+  float:left;
+}
+
+
+.topbar{
+  height:32px;
+  background-color: #555;
+}
+.container {
+  margin: 0 auto;
+  width: 920px;
+  text-align: center;
+}
+.title{
+/*  background-color: #777;
+*/}
